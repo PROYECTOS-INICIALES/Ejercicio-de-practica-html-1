@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">                                                    
     <link rel="stylesheet" href="./styles/estilos.css"/> <!--se agrega un link a la hoja de estilos creada en la ruta especificada-->
     <link rel="shortcut icon" href="./media/sombrero.png"><!--Etiqueta link: permite traer un archivo externo e insertarlo en el html-->
+    <script src="https://kit.fontawesome.com/7c70122528.js" crossorigin="anonymous"></script>
     <title>DeTourColombia</title><!--Agrega titulo a la pestaña de la página-->
 </head>
 <body>
@@ -15,9 +16,18 @@
                 <img src="./media/sombrero.png" alt="imagen" class="logo"/>
             </li>
             <li><button class="btnGenerico mainButton">Nuevo post</button></li> <!--li elemento de la lista ul-->
-            <li>Búsqueda</li>
+            <li>
+                <div class="buscar">
+                    <input placeholder="Buscar un sitio">
+                    <i class="fas fa-search"></i>
+                </div>
+                
+            </li><li>
             <li><button class="btnGenerico secondaryButton">Login</button></li>
             <li><button class="btnGenerico mainButton">Registro</button></li>
+            
+           
+          
         </ul>
 
     </header> 
