@@ -17,18 +17,25 @@ ul{
     size: 20px;
     padding: 10px;
 }
-.mainButton{
-    background-color: darkred;
-    color: white;
+
+.btnGenerico{
     padding: 5px 10px;
     border: 0px;
     border-radius: 10px;
     font-weight: bolder;
-    
 }
-.mainButton:hover{
+
+.btnGenerico:hover{
     cursor: pointer;
     box-shadow: 1px 1px palevioletred;
     transform: scale(1.1);
-
+}
+.mainButton{
+    background-color: darkred;
+    color: white;
+  
+}
+.secondaryButton{
+    background-color:aqua ;
+    color: white;
 }
