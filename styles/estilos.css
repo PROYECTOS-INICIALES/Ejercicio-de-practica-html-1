@@ -12,3 +12,18 @@
     outline: none;
     border: 0px;
 }
+
+body{
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
